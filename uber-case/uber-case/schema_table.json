@@ -1,0 +1,55 @@
+{
+    "schemaName": "rides",
+    "dimensionFieldSpecs": [
+      {
+        "name": "id",
+        "dataType": "STRING"
+      },
+      {
+        "name": "driver_name",
+        "dataType": "STRING"
+      },
+      {
+        "name": "user_id",
+        "dataType": "INT"
+      },
+      {
+        "name": "source",
+        "dataType": "STRING"
+      },
+      {
+        "name": "destination",
+        "dataType": "STRING"
+      },
+      {
+        "name": "uber_black",
+        "dataType": "INT"
+      }
+    ],
+    "metricFieldSpecs": [
+      {
+        "name": "price",
+        "dataType": "DOUBLE"
+      },
+      {
+        "name": "time_traveled",
+        "dataType": "DOUBLE"
+      },
+      {
+        "name": "distance_traveled",
+        "dataType": "DOUBLE"
+      },
+      {
+        "name": "rate",
+        "dataType": "DOUBLE"
+      }
+    ],
+    "dateTimeFieldSpecs": [
+      {
+        "name": "time_message",
+        "dataType": "STRING",
+        "format": "1:MILLISECONDS:EPOCH",
+        "granularity": "1:MILLISECONDS"
+      }
+    ]
+  }

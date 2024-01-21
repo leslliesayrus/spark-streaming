@@ -1,0 +1,12 @@
+{
+    "id": "vvfvduy", 
+    "user_id": 12,
+    "driver_id": 28, 
+    "source": "Lewismouth", 
+    "destination": "Dylanview", 
+    "price": 7.55, 
+    "time_traveled": 6,
+    "distance_traveled": 2.7, 
+    "uber_black": 0,
+    "time_message": "2024-01-21 01:25:25.749012"
+}
